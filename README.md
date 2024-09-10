@@ -29,7 +29,7 @@ syntax- ls -lr filename<br>
 
  <h2>ls -s  </h2>
 for size<br>
-syntax- ls -s filename<br>
+syntax- ls -s <br>
 
  <h2>ls -lR | grep. </h2>
 recursively grep or give<br>
