@@ -23,7 +23,7 @@ syntax- ls -t fiename<br>
 for seeing hidden file name<br>
 syntax- ls -la filename<br>
 
-<h2>-lrls -lr </h2>
+<h2>ls -lr </h2>
 reverse format of what it was modified<br>
 syntax- ls -lr filename<br>
 
