@@ -49,6 +49,7 @@ syntax- ls ..<br>
  <h2>cat >  </h2>
 for adding data<br>
 syntax- cat > filename<br>
+ctrl d after completing <br>
 
  <h2>cat >>  </h2>
 append data at end of file<br>
@@ -66,7 +67,7 @@ syntax- mkdir -p directory name/new directory<br>
 to rename file<br>
 syntax- mv old_filename new_filename<br>
 
-to move file<br><br>
+to move file<br>
 syntax- mv filename where to move
 
 can move and rename it <br>
