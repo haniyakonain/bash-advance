@@ -31,9 +31,9 @@ syntax- ls -lr filename<br>
 for size<br>
 syntax- ls -s <br>
 
- <h2>ls -lR | grep. </h2>
+ <h2>ls -lR | grep . </h2>
 recursively grep or give<br>
-syntax-ls -lR | grep.filename<br>
+syntax-ls -lR | grep .filename<br>
 
  <h2>ls *. </h2>
 wildcard<br>
