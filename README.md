@@ -4,69 +4,81 @@ shell -> prompt -> instruction to os
 
 ls options(for details, timestamp, etc)
 
-ls -l fiename
+ls -l 
 for details
 it has permission,number of reference,owner,group owner,size in bytes,last modifies date and timestamp and name of directory
+syntax- ls -l fiename
 
-ls -R subdirectory name 
+ls -R 
 details of sub directory
+syntax- ls -R subdirectory name 
 
-ls -t fiename
+ls -t
 for timestamp
 (can combine commands like ls-lt)
+syntax- ls -t fiename
 
-ls -la filename
+ls -la 
 for seeing hidden file name
+syntax- ls -la filename
 
 ls -lr fiename
 reverse format of what it was modified
 
-ls -s fiename
+ls -s 
 for size
+syntax- ls -s filename
 
-ls -lR | grep.filename
+ls -lR | grep.
 recursively grep or give
+syntax-ls -lR | grep.filename
 
-ls *.filename
+ls *.
 wildcard
+syntax- ls *.filename
 
 ls ..
 all folders/files
+syntax- ls ..
 
 cat (concatenate)
 > is forward operator
 
-cat > filename
+cat > 
 for adding data
+syntax- cat > filename
 
-cat >> filename
+cat >> 
 append data at end of file
+syntax- cat >> filename
 
 &&
 combine command
+syntax- command1 && command2 && command3
 
-mkdir -p directory name/new directory
+mkdir -p 
 for creating 2 directories recursively
+syntax- mkdir -p directory name/new directory
 
 mv(move)
-mv old_filename new_filename
 to rename file
+syntax- mv old_filename new_filename
 
-mv filename where to move
 to move file
+syntax- mv filename where to move
 
-mv filename/path(where to move)/rename filename
 can move and rename it 
+syntax- mv filename/path(where to move)/rename filename
 
 cp(copy) 
 copy file
-cp path
+syntax- cp path
 
 cp directory recursively
-cp -r path 
+syntax- cp -r path 
 
 delete
-rm filename
+syntax-rm filename
 
-rm -r foldername
+syntax- rm -r foldername
 to wipeout folder
