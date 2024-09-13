@@ -146,21 +146,27 @@ occurrences of certain word<br>
 grep 'word' filename<br>
 can be used with pipe commands<br>
 
-<h2>grep -c 'word' filename</h2>
+<h2>grep -c</h2>
 Counts the number of lines<br> containing 'word' in the<br> specified file<br>
+syntax- grep -c 'word' filename<br>
 
-<h2>grep -h 'word' filename</h2>
+<h2>grep -h</h2>
 Searches for 'word' in the file and displays matching lines without the filename prefix<br>
+syntax- grep -h 'word' filename<br>
 
-<h2>grep -hi 'word' filename</h2>
+<h2>grep -hi</h2>
 Searches for 'word' case-insensitively and displays matching lines without the filename prefix<br>
+syntax- grep -hi 'word' filename<br>
 
-<h2>grep -hir 'word' filename</h2> Searches recursively for 'word' case-insensitively in all files/directories and displays matches without filenames<br>
+<h2>grep -hir </h2> Searches recursively for 'word' case-insensitively in all files/directories and displays matches without filenames<br>
+syntax-grep -hir 'word' filename<br>
 
-<h2>grep -w 'word' filename</h2> Searches for 'word' as a whole word (not part of other words) in the specified file<br>
+<h2>grep -w</h2> Searches for 'word' as a whole word (not part of other words) in the specified file<br>
+syntax- grep -w 'word' filename<br>
 
-<h2>grep -o 'word' filename</h2>
+<h2>grep -o</h2>
 Displays only the matched parts of lines containing 'word', not the entire lines<br>
+syntax-grep -o 'word' filename<br>
 
 <h2>history 0</h2>
 previously executed commands<br>
