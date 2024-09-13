@@ -85,3 +85,30 @@ syntax-rm filename<br>
 
 syntax- rm -r foldername<br>
 to wipeout folder<br>
+
+chmod
+change file permission 
+first column _- permission 
+modify the read write execute in a file
+
+ugo and + - and r w x
+u - user
+g - growth
+o - other
++ - setting/add
+- - revoke/remove
+
+for file 
+example- chmod ugo-r
+
+for folder
+example- chmod -R ugo-r
+
+using numbers
+4 - read
+2 - write
+1 - execute
+6 - read,write 
+syntax- chmod 664 filename
+
+
