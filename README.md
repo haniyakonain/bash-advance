@@ -89,14 +89,14 @@ to wipeout folder<br>
 <h2>chmod</h2>
 change file permission <br>
 first column- permission <br>
-modify the read write execute in a file
+modify the read write execute in a file<br>
 
 <h2>ugo and + - and r w x</h2>
 u - user<br>
 g - growth<br>
 o - other<br>
 + - setting/add<br>
-- - revoke/remove<br>
+- - revoke/remove<br><br>
 
 for file <br>
 example- chmod ugo-r<br>
