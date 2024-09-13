@@ -128,7 +128,7 @@ syntax- tail filename<br>
 head -20 filename<br>
 
 <h2>view particular section </h2>
-tail -n start filename | head<br>
+tail -n start filename | head<br><br><br>
 
 
 <h2>| </h2>
@@ -189,21 +189,21 @@ download and run<br>
 <h2>advanced commands (grep, sed, awk)</h2>
 they have extra advantage and functionality <br>
 
-<h2>grep</h2>
+<h2>grep</h2><br>
 1. grep -P<br> Uses Perl-compatible regular expressions, allowing for more complex pattern matching<br>
 
 2. grep -v<br>
 Inverts the match, showing lines that don't contain the pattern<br>
 
-3. grep -A n<br> Shows n lines after each match, providing context<br>
+3. grep -A <br> Shows n lines after each match, providing context<br>
 
-4. grep -B n<br> 
+4. grep -B <br> 
 Shows n lines before each match, providing context<br>
 
-5. grep -C n<br>
+5. grep -C <br>
 Shows n lines before and after each match, providing full context<br>
 
-<h2>sed</h2>
+<h2>sed</h2><br>
 1. sed 's/pattern/replacement/g'<br> 
 Globally replaces all occurrences of a pattern in each line<br>
 
@@ -218,7 +218,7 @@ Globally replaces all occurrences of a pattern in each line<br>
 5. sed '1i\header'<br>
 Inserts "header" at the beginning of the file<br>
 
-<h2>awk</h2>
+<h2>awk</h2><br>
 1. awk '{print $1, $NF}'<br> Prints the first and last field of each line<br>
 
 2. awk -F<br> '{print $1}'<br> Uses ':' as a field separator and prints the first field<br>
