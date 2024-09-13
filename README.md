@@ -111,4 +111,39 @@ using numbers
 6 - read,write 
 syntax- chmod 664 filename
 
+echo 
+display message
+echo 'message'
+can also look at environment variable 
+
+head
+look at top of file
+syntax- head filename
+
+tail
+look at end of file
+syntax- tail filename
+
+for specific rows
+head -20 filename 
+
+view particular section 
+tail -n start filename | head
+
+| 
+its pipe operator 
+syntax- command 1 | command 2
+output of command 1 goes to command 2
+
+wc
+word count
+syntax- wc filename
+it gives lines words characters
+
+grep
+occurrences of certain word
+grep 'word' filename
+can be used with pipe commands
+
+
 
